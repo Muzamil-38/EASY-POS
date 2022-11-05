@@ -1,0 +1,54 @@
+.Login-Form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Login-Form h1 {
+  letter-spacing: 2px;
+  color: #001e28;
+}
+
+.Login-Form p {
+  letter-spacing: 1.3px;
+  color: #001e28;
+}
+
+.Form-Group {
+  box-shadow: 0 0 5px #001e28;
+  padding: 20px 15px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.Form-Group input {
+  border: 1px solid #001e28;
+  width: 350px;
+}
+
+.Form-Group input:focus .Form-Group input:hover {
+  border-color: #001e28;
+  outline: none;
+}
+
+.Login-Btn {
+  display: block;
+  margin: 0 0 15px auto;
+  background-color: #001e28;
+  color: #ffffff;
+  box-shadow: 0 0 5px #001e28;
+  transition: all 0.2s;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+}
+
+.Login-Btn:hover {
+  background-color: #ffffff;
+  color: #001e28;
+}

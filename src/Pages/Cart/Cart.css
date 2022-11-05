@@ -1,0 +1,54 @@
+.Cart-Minus {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Cart-Minus:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: #ffffff;
+}
+
+.Cart-Plus {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.Cart-Plus:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: #ffffff;
+}
+
+.Cart-Quantity {
+  font-size: 20px;
+  vertical-align: bottom;
+}
+
+.Cart-Deleted {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.Cart-Deleted:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: red;
+}
+
+.Invoice-Btn {
+  display: block;
+  margin: 0 0 15px auto;
+  background-color: #001e28;
+  color: #ffffff;
+  box-shadow: 0 0 5px #001e28;
+  transition: all 0.2s;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+}
+
+.Invoice-Btn:hover {
+  background-color: #ffffff;
+  color: #001e28;
+}

@@ -1,0 +1,26 @@
+.Category {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.CategoryFlex {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.Category-active {
+    box-shadow: 0 0 5px #afafaf;
+    border-radius: 5px;
+}
+
+
+.CategoryName{
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+}

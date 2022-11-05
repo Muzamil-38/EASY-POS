@@ -1,0 +1,38 @@
+.Product-Deleted {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.Product-Deleted:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: red;
+}
+
+.Product-Edited {
+  cursor: pointer;
+  transition: all 0.1s;
+  margin-left: 30px;
+}
+
+.Product-Edited:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: #0000ff;
+}
+
+.Add-New {
+  display: block;
+  margin: 0 0 15px auto;
+  background-color: #001e28;
+  color: #ffffff;
+  box-shadow: 0 0 5px #001e28;
+  transition: all 0.2s;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Add-New:hover {
+  background-color: #ffffff;
+  color: #001e28;
+}

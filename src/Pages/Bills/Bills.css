@@ -1,0 +1,9 @@
+.Eye-Edited {
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.Eye-Edited:hover {
+  filter: drop-shadow(0 0 2px #001e28);
+  color: #0000ff;
+}

@@ -1,0 +1,58 @@
+.CardHeader h2 {
+  letter-spacing: 1.3px;
+  color: #001e28;
+  text-align: center;
+}
+
+.CardHeader span {
+  display: flex;
+  justify-content: center;
+  color: #001e28;
+  letter-spacing: 1.3px;
+}
+
+.CardBody {
+  margin-top: 30px;
+}
+
+.CardBody .Group {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #001e28;
+  padding-top: 10px;
+}
+
+.CardFooter {
+  margin: 15px 0;
+  box-shadow: 0 0 15px #afafaf;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.Card h4 {
+  margin-top: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.CardFooter .Group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CardFooterTotal {
+  width: 100px;
+  margin: 25px 0 0 auto;
+}
+
+.CardFooterTotal .Group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FooterThanks {
+  text-align: center;
+  margin-top: 10px;
+  color: #001e28;
+}
